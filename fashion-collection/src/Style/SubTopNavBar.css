@@ -1,0 +1,25 @@
+body{
+    background-color: white;
+    font-family: sans-serif;
+}
+#SubTopNavBar{
+    width: 95%;
+    display: flex;
+    margin: 1vh auto;
+    justify-content: space-between;
+}
+.NavItemClass{
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.728);
+    padding: 10px;
+}
+.NavItemClass:hover {
+    padding: 10px;
+    background-color: #ededed;
+    border-radius: 5px;
+}
+.NavItemIcon{
+    font-size: large;
+    color: black;
+}

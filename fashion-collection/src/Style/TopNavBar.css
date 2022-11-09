@@ -1,0 +1,42 @@
+#TopNavBarDiv{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    position: relative;
+}
+#TopNavBarUl{
+    display: flex;
+}
+#TopNavBarUl>li{
+    list-style: none;
+    padding: 10px 10px 5px 10px;
+    cursor: pointer;
+}
+#MegaMenuDiv{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top:120%;
+    left: 0;
+    background-color: white;
+    /* border: 1px solid red; */
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#MegaMenuDiv>ul>p{
+    padding: 25px 10px 15px 10px;
+    cursor: pointer;
+}
+#MegaMenuDiv>ul>li{
+    list-style: none;
+    padding: 10px 10px 5px 10px;
+    cursor: pointer;
+}
+#TopNavBarUl>li:hover #MegaMenuDiv{
+    top:100%;
+    opacity: 1;
+    visibility: visible;
+}
