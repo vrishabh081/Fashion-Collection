@@ -16,6 +16,7 @@
 }
 #MegaMenuDiv{
     display: flex;
+    justify-content: space-between;
     position: absolute;
     width: 100%;
     top:120%;
@@ -34,6 +35,23 @@
     list-style: none;
     padding: 10px 10px 5px 10px;
     cursor: pointer;
+}
+#MegaMenuDiv>ul>img{
+    width: 30vw;
+}
+#ItemDetail{
+    width: 30vw;
+}
+#ItemDetail>img{
+    padding-top: 25px;
+    width: 100%;
+}
+#ItemDetail>p{
+    margin: 5px 0 
+}
+#ItemDetail>a{
+    margin: 5px 0;
+    color: black;
 }
 #TopNavBarUl>li:hover #MegaMenuDiv{
     top:100%;

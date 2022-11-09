@@ -8,7 +8,6 @@ function TopNavBar()
         <div id="TopNavBarDiv">
             <nav>
                 <ul id="TopNavBarUl">
-
                     <li>22% Off
                         <div id="MegaMenuDiv">
                             <ul>
@@ -38,6 +37,14 @@ function TopNavBar()
                                 <li>Palm Angels</li>
                                 <li>22% Off Bags</li>
                                 <li>Zimmermann</li>
+                            </ul>
+                            <ul>
+                                <div id="ItemDetail">
+                                <img src ="https://cdn-static.farfetch-contents.com/content/images/Home_CMS/Cms/07-11-22%20Pre-sale/WW-PROMO-MEGANAV.jpg" />
+                                <p>Women</p>
+                                <p>22% Off</p>
+                                <a href="">Shop Now</a>
+                                </div>
                             </ul>
                         </div>
                     </li>
@@ -74,6 +81,14 @@ function TopNavBar()
                                 <li>Ferragamo</li>
                                 <li>Valentino Garavani</li>
                                 <li>Versace</li>
+                            </ul>
+                            <ul>
+                                <div id="ItemDetail">
+                                <img src ="https://cdn-static.farfetch-contents.com/content/images/Home_CMS/Cms/02-11-WW-GIFTS-TOP-100-ICONIC-BAGS.jpg" />
+                                <p>Spotlight On</p>
+                                <p>Top 100 Iconic Bags</p>
+                                <a href="">Shop Now</a>
+                                </div>
                             </ul>
                         </div>
                     </li>
@@ -116,6 +131,14 @@ function TopNavBar()
                                 <li>Boutique Directory</li>
                                 <li>Conscious Fashion</li>
                             </ul>
+                            <ul>
+                                <div id="ItemDetail">
+                                <img src ="https://cdn-static.farfetch-contents.com/content/images/Home_CMS/Cms/09-11-WW-NEW_IN-PARTY_EDIT.jpg" />
+                                <p>Spotlight On</p>
+                                <p>Top Party Edit</p>
+                                <a href="">Discover Now</a>
+                                </div>
+                            </ul>
                         </div>
                     </li>
 
@@ -136,6 +159,38 @@ function TopNavBar()
                                 <li>Saint Laurent</li>
                                 <li>Valentino Garavani</li>
                                 <li>Versace</li>
+                            </ul>
+                            <ul>
+                                <p>ICONIC BAGS</p>
+                                <li>All Iconic Bags</li>
+                                <li>Chanel 2.55</li>
+                                <li>Dior Saddle</li>
+                                <li>LAdy Dior</li>
+                                <li>Hermed Birkin</li>
+                                <li>Hermes Kelly</li>
+                                <li>Louis Vutton Monogram</li>
+                            </ul>
+                            <ul>
+                                <p>FEATURED BRANDS</p>
+                                <li>Broucheron</li>
+                                <li>Chopard</li>
+                                <li>David Yurman</li>
+                                <li>De Beers Jewelery</li>
+                                <li>Foundrae</li>
+                                <li>Pasquale Bruni</li>
+                                <li>Pomellato</li>
+                                <li>Rolex</li>
+                                <li>Tasaki</li>
+                                <li>Van Cleef & Arples</li>
+                                <li>Yoko London</li>
+                            </ul>
+                            <ul>
+                                <div id="ItemDetail">
+                                <img src ="https://cdn-static.farfetch-contents.com/content/images/Home_CMS/Cms/09-11-WW-DESIGNER-GOLDEN_GOOSE.jpg" />
+                                <p>Brand Focus</p>
+                                <p>Golden Goose</p>
+                                <a href="">Discover Now</a>
+                                </div>
                             </ul>
                         </div>
                     </li>
@@ -193,6 +248,14 @@ function TopNavBar()
                                 <li>Partywear</li>
                                 <li>Wardrobe Essentials</li>
                             </ul>
+                            <ul>
+                                <div id="ItemDetail">
+                                <img src ="https://cdn-static.farfetch-contents.com/content/images/Home_CMS/Cms/02-11-22/02-11-WW-CLOTHING_COATS.jpg" />
+                                <p>Spotlight On</p>
+                                <p>Coats</p>
+                                <a href="">Shop Now</a>
+                                </div>
+                            </ul>
                         </div>
                     </li>
 
@@ -233,6 +296,14 @@ function TopNavBar()
                                 <li>Repair and Revive</li>
                                 <li>Sustainability at FARFETCH</li>
                             </ul>
+                            <ul>
+                                <div id="ItemDetail">
+                                <img src ="https://cdn-static.farfetch-contents.com/content/images/Home_CMS/Cms/02-11-22/02-11-WW-SHOES_PUMPS.jpg" />
+                                <p>Spotlight On</p>
+                                <p>Clutch Bags</p>
+                                <a href="">Shop Now</a>
+                                </div>
+                            </ul>
                         </div>
                     </li>
 
@@ -264,6 +335,14 @@ function TopNavBar()
                                 <li>Jacquemus Le Chiquito</li>
                                 <li>Prada Cleo</li>
                             </ul>
+                            <ul>
+                                <div id="ItemDetail">
+                                <img src ="https://cdn-static.farfetch-contents.com/content/images/Home_CMS/Cms/02-11-22/02-11-WW-BAGS_CLUTCH_BAGS.jpg" />
+                                <p>Spotlight On</p>
+                                <p>Clutch Bags</p>
+                                <a href="">Shop Now</a>
+                                </div>
+                            </ul>
                         </div>
                     </li>
 
@@ -293,6 +372,14 @@ function TopNavBar()
                                 <li>Sosft Furnishings</li>
                                 <li>Stationery & Books</li>
                                 <li>Tableware</li>
+                            </ul>
+                            <ul>
+                                <div id="ItemDetail">
+                                <img src ="https://cdn-static.farfetch-contents.com/content/images/Home_CMS/Cms/02-11-22/02-11-WW-ACCESSORIES_HOMEWARE.jpg" />
+                                <p>Spotlight On</p>
+                                <p>HOMEWARE TO LOVE</p>
+                                <a href="">Shop Now</a>
+                                </div>
                             </ul>
                         </div>
                     </li>
@@ -345,6 +432,14 @@ function TopNavBar()
                                 <li>Van Cleef & Arples</li>
                                 <li>Yoko London</li>
                             </ul>
+                            <ul>
+                                <div id="ItemDetail">
+                                <img src ="https://cdn-static.farfetch-contents.com/content/images/Home_CMS/Cms/02-11-22/02-11-WW-JEWELLERY-YOKO_LONDON.jpg" />
+                                <p>Spotlight On</p>
+                                <p>YOKO LONDON</p>
+                                <a href="">Shop Now</a>
+                                </div>
+                            </ul>
                         </div>
                     </li>
 
@@ -396,6 +491,14 @@ function TopNavBar()
                                 <li>Donate Pre-Loved Pieces</li>
                                 <li>Repair and Revive</li>
                                 <li>Sustainability at FARFETCH</li>
+                            </ul>
+                            <ul>
+                                <div id="ItemDetail">
+                                <img src ="https://cdn-static.farfetch-contents.com/content/images/Home_CMS/Cms/02-11-22/02-11-WW-PRE_OWNED-LOUIS_VUITTON.jpg" />
+                                <p>Spotlight On</p>
+                                <p>PRE OWNED LOUIS VUITTON</p>
+                                <a href="">Learn More</a>
+                                </div>
                             </ul>
                         </div>
                     </li>
