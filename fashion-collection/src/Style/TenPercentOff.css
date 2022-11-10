@@ -1,0 +1,31 @@
+#TenPercentOffDiv{
+    margin: auto;
+    text-align: center;
+    width: 400px;
+}
+#TenPercentOffDiv>h1{
+    margin: 2vh 0;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.948);
+}
+#TenPercentOffDiv>p{
+    line-height: 20px;
+    margin: 2vh 0 3vh 0;
+    font-size: 16px;
+    color: #222222e9;
+}
+#TenPercentOffDiv>div{
+    margin: 4vh 0;
+    color: #222222e9;
+    text-align: left;
+    font-size: 16px
+}
+#TenPercentOffDiv>div>p{
+    margin: 2vh 0 2vh 1vh;
+}
+#TenPercentOffDiv>div>label, #TenPercentOffDiv>div>input{
+    margin: 0vh 0 2vh 1vh;
+}
+.RadioButton{
+    margin: 0 1vh;
+}
