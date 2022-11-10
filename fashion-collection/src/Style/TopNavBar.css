@@ -11,7 +11,7 @@
 }
 #TopNavBarUl>li{
     list-style: none;
-    padding: 10px 10px 5px 10px;
+    padding: 2.1vh 1vw 1vh 1vw;
     cursor: pointer;
 }
 #MegaMenuDiv{
@@ -25,15 +25,15 @@
     /* border: 1px solid red; */
     visibility: hidden;
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 #MegaMenuDiv>ul>p{
-    padding: 25px 10px 15px 10px;
+    padding: 4vh 2vw 3vh 2vw;
     cursor: pointer;
 }
 #MegaMenuDiv>ul>li{
     list-style: none;
-    padding: 10px 10px 5px 10px;
+    padding: 1vh 2vw 1vh 2vw;
     cursor: pointer;
 }
 #MegaMenuDiv>ul>img{
@@ -43,14 +43,14 @@
     width: 30vw;
 }
 #ItemDetail>img{
-    padding-top: 25px;
+    padding-top: 4vh;
     width: 100%;
 }
 #ItemDetail>p{
-    margin: 5px 0 
+    margin: 1vh 0 
 }
 #ItemDetail>a{
-    margin: 5px 0;
+    margin: 1vh 0;
     color: black;
 }
 #TopNavBarUl>li:hover #MegaMenuDiv{
