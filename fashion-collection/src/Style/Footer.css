@@ -1,0 +1,16 @@
+#footerDiv{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 0;
+    margin-top: 2vh;
+}
+#footerDiv p{
+    margin: 2vh 0;
+    font-size: 16px;
+}
+.iconClass{
+    margin: 1vh 1vh 1vh 0;
+    color: white;
+}
