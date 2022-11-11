@@ -7,6 +7,7 @@ function Button({props})
             backgroundColor:"black",
             color:"white",
             borderRadius:"5px",
+            cursor:"pointer",
         }}>
             {props}
         </button>

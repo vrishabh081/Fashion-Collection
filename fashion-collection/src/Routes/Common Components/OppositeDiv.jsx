@@ -23,7 +23,7 @@ function OppositeDiv({image, heading, para, button})
                 </button>
             </div>
             <div>
-                <img style={{width:"40vw"}} src ={image}/>
+                <img style={{width:"80vw"}} src ={image}/>
             </div>
         </div>
     );

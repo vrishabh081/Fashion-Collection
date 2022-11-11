@@ -14,7 +14,7 @@ function StraightDiv({image, heading, para, button})
             marginBottom:"15vh",
         }}>
             <div>
-                <img style={{width:"40vw"}} src ={image}/>
+                <img style={{width:"80vw"}} src ={image}/>
             </div>
             <div>
                 <h1 style={{fontSize:"4vw", textAlign:"center", margin:"4vh 0"}}>{heading}</h1>
