@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Bag from "../Components/Bag";
 import Login from "../Components/Login";
 import Wishlist from "../Components/Wishlist";
-import WomenShopping from "../Components/WomenShopping";
+import WomenShop from "../Components/WomenShopping/WomenShop";
 import Kids from "./Kids";
 import Men from "./Men";
 import Women from "./Women";
@@ -16,7 +16,7 @@ function AllRoutes() {
       <Route path="/login" element={<Login />} />
       <Route path="/wishlist" element={<Wishlist />} />
       <Route path="/bag" element={<Bag />} />
-      <Route path="/womenshop" element={<WomenShopping/>} />
+      <Route path="/womenshop" element={<WomenShop/>} />
     </Routes>
   );
 }

@@ -8,6 +8,7 @@ function NavBar()
             paddingBottom:"5vh",
             position:"sticky",
             top:"0",
+            zIndex:"1",
             backgroundColor:"white"
             }}>
             <SubTopNavBar/>
