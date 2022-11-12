@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Error from "../Error";
 import Loader from "../Loader";
 
@@ -88,17 +89,20 @@ function WomenShopping({sortingValue, paginate, filterValue})
     return(
         <div style={{display:"grid", gridTemplateColumns:"repeat(3,1fr)", gap:"5vw", margin:"1vh 1vw"}}>
                 {data.map(el=>
-                <div 
-                    key={el.id}
-                    style={{
-                        boxShadow: "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(27, 31, 35, 0.2) 0px 0px 0px 1px",
-                        padding:"2vh 2vw"
-                }}>
+                    <Link to= {`/womenshop/${el.id}`} key={el.id}>
+                        <div 
+                            key={el.id}
+                            style={{
+                                boxShadow: "rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(27, 31, 35, 0.2) 0px 0px 0px 1px",
+                                padding:"2vh 2vw"
+                        }}>
                         <img src={el.image} style={{width:"60%"}}/>
                         <p style={{fontWeight:"bold"}}>{el.title}</p>
                         <p>{el.name}</p>
                         <p>$ {el.price}</p>
-                </div>)}
+                </div>
+                    </Link>
+                )}
             </div>
     );
 }

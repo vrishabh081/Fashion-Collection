@@ -5,6 +5,8 @@ import Wishlist from "../Components/Wishlist";
 import WomenShop from "../Components/WomenShopping/WomenShop";
 import Kids from "./Kids";
 import Men from "./Men";
+import PrivateRoute from "./PrivateRoute";
+import SingleWomenItem from "./SingleWomenItem";
 import Women from "./Women";
 
 function AllRoutes() {
@@ -17,6 +19,7 @@ function AllRoutes() {
       <Route path="/wishlist" element={<Wishlist />} />
       <Route path="/bag" element={<Bag />} />
       <Route path="/womenshop" element={<WomenShop/>} />
+      <Route path="/womenshop/:id" element={<SingleWomenItem/>} />
     </Routes>
   );
 }
