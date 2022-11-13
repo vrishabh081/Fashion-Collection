@@ -20,12 +20,16 @@ function Wishlist()
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false)
     const [data, setData] = useState(null);
+    const [id, setId] = useState("")
 
+
+
+    // Show Wishlist data -----------------------------
     useEffect(() => {
         setLoading(true);
         getUserById()
         .then((res) => {
-            setData(res);
+            setData(res)
             setLoading(false);
             setError(false);
         })
@@ -35,6 +39,8 @@ function Wishlist()
         });
     }, []);
 
+
+    // Loadin and Error---------------------------------
     if(loading)
     {
         return <Loader/>

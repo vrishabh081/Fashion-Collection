@@ -1,14 +1,15 @@
-import { layout } from "@chakra-ui/react";
 import { useState } from "react"
 import Loader from "./Loader";
 
-function DeleteWishlist({id})
+
+// Main funciton-------------------------------------
+function DeleteWishlist({ id })
 {
     const [loader, setLoader] = useState(false);
     const deletePost = ()=>
     {
-        setLoader(true)
         window.location.reload(false)
+        setLoader(true)
         fetch(`http://localhost:4000/wishlist/${id}`,
         {
             method:"DELETE",
@@ -25,11 +26,13 @@ function DeleteWishlist({id})
             console.log(err)
         })    
     }
+    
 
     if(loader)
     {
         return <Loader/>
     }
+    
     // Return Statement-----------------------
     return(
         <div style={{textAlign:"right"}}>

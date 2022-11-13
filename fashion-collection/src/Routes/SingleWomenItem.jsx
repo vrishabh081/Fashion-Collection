@@ -23,6 +23,7 @@ function SingleWomenItem()
     const [error, setError] = useState(false)
     const [data, setData] = useState(null);
 
+    // Get Data function
     useEffect(() => {
         setLoading(true);
         getUserById(params.id)
@@ -47,7 +48,7 @@ function SingleWomenItem()
     }
 
 
-    // Add To Cart function-------------------------------
+    // Add To Cart Post function-------------------------------
     const addToCart = ()=>
     {
         setLoading(true)

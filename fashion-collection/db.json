@@ -289,6 +289,15 @@
       "price": 1450,
       "category": "clothing",
       "fashion": "fashion-collection"
+    },
+    {
+      "id": 5,
+      "image": "https://cdn-images.farfetch-contents.com/18/76/40/47/18764047_42222539_480.jpg",
+      "title": "Nensi Dojaka",
+      "name": "sequin-embellished cut-out dress",
+      "price": 3795,
+      "category": "clothing",
+      "fashion": "fashion-collection"
     }
   ],
   "wishlist": [
@@ -300,6 +309,53 @@
       "price": 1050,
       "category": "bag",
       "fashion": "fashion-collection"
+    }
+  ],
+  "login": [
+    {
+      "email": "rishabhvishwakarma398@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "email": "rishabhvishwakarma398@gmail.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "email": "rishabhvishwakarma398@gmail.com",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "abc",
+      "id": 4
+    },
+    {
+      "email": "abcd@gmail.com",
+      "password": "abcd",
+      "id": 5
+    },
+    {
+      "email": "abca@gmail.com",
+      "password": "khkhk",
+      "id": 6
+    },
+    {
+      "email": "abca@gmail.com",
+      "password": "wefg",
+      "id": 7
+    },
+    {
+      "email": "abca@gmail.com",
+      "password": "fhjfg",
+      "id": 8
+    },
+    {
+      "email": "abca@gmail.com",
+      "password": "seth",
+      "id": 9
     }
   ]
 }
