@@ -298,9 +298,7 @@
       "price": 3795,
       "category": "clothing",
       "fashion": "fashion-collection"
-    }
-  ],
-  "wishlist": [
+    },
     {
       "id": 2,
       "image": "https://cdn-images.farfetch-contents.com/16/76/07/08/16760708_33403238_480.jpg",
@@ -311,6 +309,7 @@
       "fashion": "fashion-collection"
     }
   ],
+  "wishlist": [],
   "login": [
     {
       "email": "rishabhvishwakarma398@gmail.com",

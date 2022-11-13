@@ -35,25 +35,6 @@ function Login() {
           .catch(err=>{
               setLoading(false)
           })
-
-
-
-          // Second Method-------------------------------------- 
-          // setLoading(true)
-          // fetch("http://localhost:4000/login",{
-          //   method:"POST",
-          //   headers:{
-          //     "Content-Type" : "application/json"
-          //   },
-          //   body: JSON.stringify({email, password})
-          // })
-          // .then(res=>res.json())
-          // .then(res=>{
-          //   loginUser(res.id)
-          //   console.log(res)
-          //   setLoading(false)
-          //   navigate("/womenshop")
-          // })
         }
       }
       if(loading)
